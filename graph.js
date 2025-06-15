@@ -35,7 +35,7 @@ const options = { interaction: { hover: true }, nodes: { shape: 'dot', size: 20 
       strokeWidth: 0,
       size: 14,
       face: 'arial'
-    }, edges: {color: '#aaaaaa', arrows: { middle: { enabled: true, scaleFactor: 1}}}, };
+    }, edges: {color: '#aaaaaa', arrows: { middle: { enabled: true, scaleFactor: 0.5}}}, };
 const network = new vis.Network(container, data, options);
 
 network.on("click", function (params) {
