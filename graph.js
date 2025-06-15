@@ -13,18 +13,18 @@ const nodes = new vis.DataSet([
 ]);
 
 const edges = new vis.DataSet([
-  { from: 1, to: 2 },
-  { from: 2, to: 3 },
-  { from: 2, to: 4 },
-  { from: 4, to: 9 },
-  { from: 3, to: 4 },
-  { from: 5, to: 4 },
-  { from: 6, to: 5 },
-  { from: 7, to: 6 },
-  { from: 8, to: 6 },
-  { from: 9, to: 11 },
-  { from: 10, to: 11 },
-  { from: 7, to: 10 },
+  { from: 1, to: 2, arrows: 'to' },
+  { from: 2, to: 3, arrows: 'to' },
+  { from: 2, to: 4, arrows: 'to' },
+  { from: 4, to: 9, arrows: 'to' },
+  { from: 3, to: 4, arrows: 'to' },
+  { from: 5, to: 4, arrows: 'to' },
+  { from: 6, to: 5, arrows: 'to' },
+  { from: 7, to: 6, arrows: 'to' },
+  { from: 8, to: 6, arrows: 'to' },
+  { from: 9, to: 11, arrows: 'to' },
+  { from: 10, to: 11, arrows: 'to' },
+  { from: 7, to: 10, arrows: 'to' },
 ]);
 
 const container = document.getElementById("network");
