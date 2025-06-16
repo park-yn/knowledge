@@ -25,12 +25,12 @@ const container = document.getElementById("network");
 const data = { nodes, edges };
 const options = { interaction: { hover: true }, nodes: {
   shape: 'box',   
-  color: {
-    background: '#aaaaaa',  // 🎨 node fill color
-    border: '#1c37ff',
+ color: {
+    background: '#cccccc',  
+    border: '#2e81ff',
     highlight: {
       background: '#ffff99',
-      border: '#dbdbdb'
+      border: '#2e81ff'
     }
   },
   font: {
