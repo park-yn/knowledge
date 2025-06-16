@@ -24,7 +24,15 @@ const edges = new vis.DataSet([
 const container = document.getElementById("network");
 const data = { nodes, edges };
 const options = { interaction: { hover: true }, nodes: {
-  shape: 'box',    
+  shape: 'box',   
+  color: {
+    background: '#aaaaaa',  // 🎨 node fill color
+    border: '#1c37ff',
+    highlight: {
+      background: '#ffff99',
+      border: '#dbdbdb'
+    }
+  },
   font: {
     color: '#000000',    // black label
     size: 18,            // readable inside node
