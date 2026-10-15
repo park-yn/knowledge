@@ -5,10 +5,7 @@ const nodes = new vis.DataSet([
   {
     id: 7,
     label: 'Manifolds & \nreal tensor analysis',
-    url: 'PDFs/manifolds.pdf',
-    x: -8000,
-    y: 0,
-    fixed: { x: true, y: true }
+    url: 'PDFs/manifolds.pdf'
   },
   {
     id: 8,
