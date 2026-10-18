@@ -8,16 +8,16 @@ const islands = {
 // x, y: where each node opens. Drag nodes around, then run
 // printPositions() in the browser console to get the new numbers.
 const nodes = new vis.DataSet([
-  { id: 'foundations', island: 'core',   x:  315, y: -275, label: 'Foundations',                            url: 'PDFs/foundations.pdf' },
-  { id: 'geometry',    island: 'core',   x:  430, y: -140, label: 'The Mathematics of\nGeometry and Symmetry', url: 'PDFs/geometry_symmetry.pdf' },
-  { id: 'classical',   island: 'core',   x:  425, y:   70, label: 'Classical Fields\nand Spacetime',        url: 'PDFs/classical_fields.pdf' },
+  { id: 'foundations', island: 'core',   x:  315, y: -275, label: 'Some foundations',                            url: 'PDFs/foundations.pdf' },
+  { id: 'geometry',    island: 'core',   x:  430, y: -140, label: 'Algebra and geometry', url: 'PDFs/geometry_symmetry.pdf' },
+  { id: 'classical',   island: 'core',   x:  425, y:   70, label: 'Classical fields\nand spacetime',        url: 'PDFs/classical_fields.pdf' },
   { id: 'pqft',        island: 'core',   x:  335, y:  205, label: 'Perturbative QFT',                       url: 'PDFs/perturbative_qft.pdf' },
 
   { id: 'beyond',      island: 'beyond', x: -225, y:   95, label: 'Nonperturbative QFT',                    url: 'PDFs/nonperturbative_qft.pdf' },
-  { id: 'susy',        island: 'beyond', x: -370, y:  -80, label: 'SUSY and\nDuality',                      url: 'PDFs/susy_duality.pdf' },
+  { id: 'susy',        island: 'beyond', x: -370, y:  -80, label: 'SUSY',                      url: 'PDFs/susy_duality.pdf' },
   { id: 'tqft',        island: 'beyond', x: -155, y: -165, label: 'TQFT',                                   url: 'PDFs/tqft.pdf' },
-  { id: 'strings',     island: 'beyond', x:  -30, y:  -25, label: 'Strings, Branes\nand Holography',        url: 'PDFs/strings_holography.pdf' },
-  { id: 'riemann',     island: 'beyond', x: -500, y:  145, label: 'Riemann Surfaces and\nComplex Geometry',  url: 'PDFs/riemann_complex.pdf' },
+  { id: 'strings',     island: 'beyond', x:  -30, y:  -25, label: 'Strings, branes \nand holography',        url: 'PDFs/strings_holography.pdf' },
+  { id: 'riemann',     island: 'beyond', x: -500, y:  145, label: 'Riemann surfaces',  url: 'PDFs/riemann_complex.pdf' },
   { id: 'cft',         island: 'beyond', x: -260, y:  260, label: 'CFT',                                    url: 'PDFs/cft.pdf' }
 ]);
 
