@@ -8,7 +8,7 @@ const islands = {
 // x, y: where each node opens. Drag nodes around, then run
 // printPositions() in the browser console to get the new numbers.
 const nodes = new vis.DataSet([
-  { id: 'foundations', island: 'core',   x:  315, y: -275, label: 'Some foundations',                            url: 'PDFs/foundations.pdf' },
+  { id: 'foundations', island: 'core',   x:  315, y: -275, label: 'Foundations',                            url: 'PDFs/foundations.pdf' },
   { id: 'geometry',    island: 'core',   x:  430, y: -140, label: 'Algebra and geometry', url: 'PDFs/geometry_symmetry.pdf' },
   { id: 'classical',   island: 'core',   x:  425, y:   70, label: 'Classical fields\nand spacetime',        url: 'PDFs/classical_fields.pdf' },
   { id: 'pqft',        island: 'core',   x:  335, y:  205, label: 'Perturbative QFT',                       url: 'PDFs/perturbative_qft.pdf' },
